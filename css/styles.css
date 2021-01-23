@@ -1,0 +1,109 @@
+p{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0px 30px 0px 0px;
+}
+
+header{
+    background-color: #00263A;
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+    font-size: 22px;
+}
+
+nav{
+    width: 30%;
+    margin-left: auto;
+    font-size: 18px;
+    float: right;
+}
+
+ul{
+    padding: 0;
+}
+
+li a{
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+img{
+    text-align: center;
+    vertical-align: middle; 
+}
+
+.imgpad{
+    padding: 50px 0px 0px 0px;
+}
+
+.heroimg{
+    height: 600px;
+    padding: 50px;
+}
+
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.leftframe{
+    float: left;
+    width: 700px;
+}
+
+.rightframe{
+    float: right;
+    width: 300px;
+}
+
+.white{
+    color: white;
+}
+
+footer{
+    background-color: #00263A;    
+    height: 50px;
+}
+
+footer ul{
+    padding: 5px 0px 0px 0px;
+}
+
+footer li{
+    text-align: center;
+    padding: 0 20px;
+}
+
+h1{
+    font-family:"Lora", Times, serif;
+    font-size: 52px;
+    color: #7C878E;
+    /*padding: 0px 30px 0px 0px;*/
+} 
+
+button{
+    background-color: #0085CA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+}
