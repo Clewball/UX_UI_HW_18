@@ -172,9 +172,15 @@ footer li{
   
   @media only screen and (max-width: 600px) {
 
+
     .flexContainer {
-        flex-direction: column; 
+        flex-direction: column;    
       }  
+
+    .flexSection {
+        width: 100%;  
+        margin-bottom: 16px;   
+    }
 
     .workGrid {
       grid-template-columns: auto;
@@ -190,5 +196,14 @@ footer li{
     .content{
         width: 100%;
     }
+
+    section{
+        margin-bottom: 16px;
+    }
+
+    header{
+        height: 150px;
+    }
+    
 }
   
